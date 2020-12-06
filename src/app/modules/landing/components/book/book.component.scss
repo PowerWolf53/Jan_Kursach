@@ -1,0 +1,18 @@
+.book-wrapper{
+  height: 100%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.book-name{
+  font-family: 'Playfair Display', serif;
+  margin-top: 10px;
+}
+
+.book-price{
+  margin-top: 5px;
+  color: #E8504D;
+}

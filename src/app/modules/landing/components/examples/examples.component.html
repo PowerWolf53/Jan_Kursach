@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <div class="upper-area">
+    <span class="label">eBooks for Instant Download</span>
+    <div class="separator"></div>
+  </div>
+  <div class="lower-area">
+    <div class="books-wrapper">
+        <app-book *ngFor="let book of books" [book]="book" ></app-book>
+    </div>
+  </div>
+</div>

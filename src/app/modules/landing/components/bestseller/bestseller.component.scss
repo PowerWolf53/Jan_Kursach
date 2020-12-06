@@ -1,0 +1,89 @@
+.container{
+  height: calc(100vh);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.black-part{
+  background-color: rgba(4, 5, 5, 0.93);
+  flex: 7;
+  z-index: 2;
+}
+
+.white-part{
+  flex: 9;
+  z-index: 2;
+}
+
+.outer-layer{
+  height: 500px;
+  width: 800px;
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  margin-top:230px;
+  display: flex;
+  z-index: 3;
+}
+
+.bestseller-info{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.image{
+  flex: 1;
+}
+
+.label{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+  line-height: 1.2;
+}
+
+.label{
+  margin-left: 70px;
+}
+
+.available{
+  height: 150px;
+  width: 300px;
+  margin-top: 170px;
+  margin-left: 75px;
+  display: flex;
+  flex-direction: column;
+}
+.available-label{
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+  font-size: 15px;
+  color: white;
+}
+
+.available-button{
+  margin-top: 30px;
+  border: 1px solid white;
+  height: 40px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.available-button:hover{
+  background-color: white;
+  transition: background-color 0.5s;
+  .button-label{
+    color: black;
+  }
+}
+
+.button-label{
+  font-family: 'Playfair Display', serif;
+  color: white;
+}

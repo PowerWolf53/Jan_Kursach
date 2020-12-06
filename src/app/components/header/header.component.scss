@@ -1,0 +1,65 @@
+.header{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+}
+
+.nav-left-section{
+  margin-bottom:30px;
+  height: 90px;
+  width: 500px;
+  display: flex;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.nav-left-section > span{
+  margin-left: 25px;
+
+}
+
+.nav-right-section > *{
+  margin-left: 15px;
+
+}
+
+.nav-right-section{
+  margin-bottom: 30px;
+  height: 90px;
+  width: 390px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.nav-element{
+  cursor: pointer;
+}
+
+.red{
+  color: #E8504D;
+}
+
+.cart{
+  width: 22px;
+  height: 20px;
+}
+
+.nav-label:hover{
+  color: #E8504D;
+}
+
+.nav-label{
+  transition: 0.5s color;
+}
+
+.log-in{
+  font-size: 18px;
+}

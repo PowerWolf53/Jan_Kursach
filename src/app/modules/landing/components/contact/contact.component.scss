@@ -1,0 +1,148 @@
+.wrapper{
+  height: calc(100vh - 100px);
+  width: 100%;
+  background-color: rgb(28,28,28);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-area{
+  height: 530px;
+  width: 670px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+
+
+.contact-line{
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.contact-wrapper{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.left-contact{
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid white;
+  flex: 1;
+}
+
+.right-contact{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.info-label{
+  line-height:30px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+
+.input-area{
+  width: 100%;
+  height: 300px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-input{
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(50,46,45);
+  text-indent: 10px;
+  -webkit-appearance: none;
+  outline: none;
+  box-shadow: none;
+  border: none;
+
+}
+
+.contact-input::placeholder{
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+  letter-spacing: 2px;
+}
+
+.contact-input:focus{
+  border: 1px solid red;
+  background-color: rgb(51,32,32);
+}
+
+.text-area{
+  height: 100px;
+}
+
+.text-area::placeholder{
+  margin-top: 5px;
+}
+
+.submit-button{
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  position: absolute;
+  margin-top: 230px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif italic;
+  transition: background-color 0.5s;
+}
+
+.submit-button:hover{
+  background-color: rgb(155,53,51);
+  color: white;
+}
+
+.faq{
+  width: 100%;
+  height: 80px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-span{
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.outline{
+  height: 80px;
+  border-top: 1px solid rgb(50,46,45);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outline-span{
+  color: white;
+}

@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  height: calc(100vh - 200px);
+  width: 100%;
+}
+
+.left-side{
+  flex: 10;
+  background-image: url('../../../../../assets/images/author.png');
+  background-size: cover;
+}
+
+.right-side{
+  flex: 10;
+  background-color: #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-container{
+  height: 450px;
+  width: 400px;
+}
+
+.my-story{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 37px;
+}
+
+.black-span{
+  margin-top: 25px;
+  width: 100px;
+  height: 2px;
+  background-color: black;
+}
+
+.paragraph-one{
+  font-family: 'Playfair Display', serif;
+  margin-top: 25px;
+  letter-spacing: 2px;
+  line-height: 1.7;
+}
+.second-paragraph{
+  margin-top: 25px;
+}
